@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-  // routes
+  // routes nuevas
   http.HandleFunc("/", homeHandler)
   http.HandleFunc("/contact", contactHandler)
   // start the server
